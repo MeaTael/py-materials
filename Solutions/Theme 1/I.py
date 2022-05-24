@@ -1,0 +1,7 @@
+inp = open("input.txt", "r")
+data = inp.read()
+inp.close()
+data = data.replace(" ", "\n")
+out = open("output.txt", "w")
+out.write(data)
+out.close()
